@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: aliceblue;
+  font-family: var(--font-geist-sans);
+
 }
 
 @layer base {
