@@ -5,7 +5,7 @@ const MobileFrame = ({ src, alt }) => {
   return (
     <div className="flex items-center justify-center h-screen">
       {/* Mobile Frame without Overflow Hidden */}
-      <div className="relative w-[320px] px-2 h-[600px] rounded-[40px] border-[2px] border-gray-700 shadow-2xl bg-black">
+      <div className="relative w-[300px] px-2 h-[600px] rounded-[40px] border-[2px] border-gray-700 shadow-2xl bg-black">
         {/* Image Container with Overflow Hidden */}
         <div className="overflow-hidden w-full h-[580px] ">
           <Image
